@@ -27,7 +27,7 @@ public class Demo02 {
             //获取构造器
             Constructor[] constructors = clazz.getDeclaredConstructors();
             for(Constructor c : constructors){
-                System.out.println("获得构造器：" + c);
+                System.out.println("获得构造器:" + c);
             }
         } catch (Exception e) {
             e.printStackTrace();
