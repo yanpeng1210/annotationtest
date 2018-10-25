@@ -3,12 +3,12 @@ package reflectdemo;
 public class User {
     private int id;
     private int age;
-    private int uname;
+    private String uname;
 
     public User() {
     }
 
-    public User(int id, int age, int uname) {
+    public User(int id, int age, String uname) {
         this.id = id;
         this.age = age;
         this.uname = uname;
@@ -30,11 +30,11 @@ public class User {
         this.age = age;
     }
 
-    public int getUname() {
+    public String getUname() {
         return uname;
     }
 
-    public void setUname(int uname) {
+    public void setUname(String uname) {
         this.uname = uname;
     }
 }
